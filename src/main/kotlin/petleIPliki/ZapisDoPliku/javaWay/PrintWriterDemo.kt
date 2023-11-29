@@ -1,6 +1,5 @@
 package Zrobione.petleIPliki.ZapisDoPliku.javaWay
 
-import java.io.IOException
 import java.io.PrintWriter
 
 

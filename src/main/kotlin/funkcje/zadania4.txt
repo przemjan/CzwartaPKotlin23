@@ -1,0 +1,104 @@
+1. Funkcja showChar
+Napisz funkcję showChar. Powinna ona przyjmować dwa argumenty: referencję do obiektu typu String i liczbę całkowitą.
+Argument w postaci liczby całkowitej określa pozycję znaku w obiekcie typu String (pierwszy znak znajduje się na pozycji
+ zerowej). Funkcja ma wyświetlać znak z podanej pozycji. Oto przykładowe wywołanie tej funkcji:
+val cityName  = Kwidzyn;
+showChar(cityName,2);
+W tym wywołaniu funkcja wyświetli znak 'w', ponieważ to on znajduje się na drugiej pozycji.
+Zademonstruj tę funkcję w kompletnym programie.
+
+2. Kalkulator ceny detalicznej
+Napisz program, który wyświetla prośbę o wpisanie ceny hurtowej produktu i marży (w procentach). Program powinien
+wyświetlać cenę detaliczną. Oto przykład:
+   - Jeśli cena hurtowa wynosi 5,00 złotych, a marża to 100%, to cena detaliczna jest równa 10,00 złotych.
+   - Jeśli cena hurtowa to 5,00 złotych, a marża jest równa 50%, to cena detaliczna wynosi 7,50 złotego.
+Program powinien obejmować funkcję calculateRetail, która przyjmuje argumenty w postaci ceny hurtowej i marży oraz
+zwraca cenę detaliczną produktu.
+
+3.Kalkulator szacunkowych kosztów malowania
+Firma malarska określiła, że każde 10 m2 powierzchni ściany wymaga 1,5 litra farby i 8 godzin pracy. Koszty robocizny
+firma wycenia na 18,00 złotych za godzinę. Napisz program, który pozwala użytkownikowi wprowadzić liczbę pokojów
+do pomalowania i cenę farby za litr. Program powinien też wyświetlać pytanie o powierzchnię każdego pokoju
+w metrach kwadratowych. W programie należy umieścić funkcje zwracające następujące dane:
+  -	liczbę potrzebnych litrów farby,
+  -	liczbę potrzebnych godzin pracy,
+  -	koszt farby,
+  -	koszt robocizny,
+  -	łączny koszt malowania.
+Program powinien wyświetlać te dane na ekranie.
+
+4. Napisz program, która w tablicy wartości typu double zapisuje łączny poziom
+opadów z każdego z 12 miesięcy. Program mieć funkcje zwracające następujące
+dane:
+ - łączny poziom opadów z danego roku,
+ - średni miesięczny poziom opadów,
+ - miesiąc o najwyższym poziomie opadów,
+ - miesiąc o najniższym poziomie opadów.
+Program powinien wyświetlać te dane na ekranie.
+
+5. Większe od n
+Napisz w programie funckję, która przyjmuje dwa argumenty: tablicę i liczbę n. Załóż,
+że ta tablica zawiera liczby całkowite. Funkcja powinna zwracać wszystkie zapisane
+w tablicy liczby, które są większe od n. Przetestuj działanie funkcji w kompletnym programie.
+
+6. Napisz program, który wyświetla prośbę o wprowadzenie odległości w metrach. Następnie program powinien udostępniać menu z takimi oto opcjami:
+1. konwersja na kilometry,
+2. konwersja na cale,
+3. konwersja na stopy,
+4. wyjście z programu.
+Program w zależności od wyboru dokonanego przez użytkownika ma przekształcać odległość na kilometry, cale lub stopy. Oto wymogi stawiane programowi:
+- Napisz funkcję o nazwie calcKilometers, która jako argument przyjmuje liczbę metrów i zwraca tę samą odległość
+ w kilometrach. Metry na kilometry należy przekształcać na podstawie następującego wzoru:
+kilometers = meters * 0.001
+- Napisz funkcję o nazwie calcInches, która jako argument przyjmuje liczbę metrów i zwraca tę samą odległość w calach.
+Metry na cale należy przekształcać na podstawie następującego wzoru: inches = meters * 39.37
+- Napisz funkcję o nazwie calcFeet, która jako argument przyjmuje liczbę metrów i zwraca tę samą odległość w stopach.
+Metry na stopy należy przekształcać na podstawie następującego wzoru: feet = metemetrs * 3.281
+- Napisz funkcję void o nazwie displayMenu, która wyświetla menu z opcjami. Ta funkcja nie powinna przyjmować żadnych
+    argumentów.
+- Napisz funkcję void o nazwie displayResults, która jako argumenty przyjmuje nazwy jednostek i wyniki i wyświetla
+    rezultaty.
+
+ - Program powinien wyświetlać menu do czasu wprowadzenia przez użytkownika liczby 4, oznaczającej zamknięcie programu.
+ - Program przy pobieraniu odległości w metrach nie powinien przyjmować liczb ujemnych.
+ - Jeśli użytkownik nie wybrał z menu poprawnej opcji, program powinien wyświetlać komunikat o  błędzie.
+Oto przykładowa sesja używania tego programu w konsoli:
+Podaj odległość w metrach: 500 [Enter]
+1. Przelicz na kilometry.
+2. Przelicz na cale.
+3. Przelicz na stopy.
+4. Zamknij program.
+Podaj wybraną opcję: 1 [Enter]
+500 metrów w kilometrach to 0,5.
+1. Przelicz na kilometry.
+2. Przelicz na cale.
+3. Przelicz na stopy.
+4. Zamknij program.
+Podaj wybraną opcję: 3 [Enter]
+500 metrów w stopach to 1640,5.
+1. Przelicz na kilometry.
+2. Przelicz na cale.
+3. Przelicz na stopy.
+4. Zamknij program.
+Podaj wybraną opcję: 4 [Enter]
+Żegnaj
+
+
+7. „Kamień, papier, nożyce”
+Napisz program, który umożliwia grę w „kamień, papier, nożyce” z komputerem.
+Program powinien działać w następujący sposób:
+   1. Gdy program rozpoczyna pracę, generowana jest liczba losowa z przedziału od 1 do 3. Jeśli ta liczba to 1,
+   komputer wybrał kamień, Jeżeli ta liczba to 2, komputer wybrał papier. Liczba 3 oznacza, że komputer wybrał nożyce.
+   Początkowo nie należy wyświetlać opcji wybranej przez komputer.
+   2. Użytkownik za pomocą klawiatury podaje swój wybór: kamień, papier lub nożyce.
+   Jeśli chcesz, możesz posłużyć się w tym celu menu.
+   3. Wyświetlany jest wybór dokonany przez komputer.
+   4. Wybierany jest zwycięzca zgodnie z następującymi regułami:
+    - Jeśli jeden gracz wybrał kamień, a drugi nożyce, kamień wygrywa (kamień tępi nożyce).
+    - Jeśli jeden gracz wybrał nożyce, a drugi papier, nożyce wygrywają (nożyce tną papier).
+    - Jeśli jeden gracz wybrał papier, a drugi kamień, papier wygrywa (papier ściera kamień).
+    - Jeśli obie strony dokonały tego samego wyboru, grę trzeba powtórzyć, aby ustalić zwycięzcę.
+Koniecznie podziel program na funkcje wykonujące poszczególne zadania.
+
+
+

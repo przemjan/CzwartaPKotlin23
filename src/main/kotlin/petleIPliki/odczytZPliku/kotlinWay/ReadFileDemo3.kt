@@ -12,10 +12,10 @@ fun main() {
     for(i in 0..lines.size -1){
         println("$i: ${lines[i]} ")
     }
-
-    for(i in 0..<lines.size){
-        println("$i: ${lines[i]} ")
-    }
+//
+//    for(i in 0..<lines.size){
+//        println("$i: ${lines[i]} ")
+//    }
 
     for(i in lines.indices){
         println("$i: ${lines[i]} ")

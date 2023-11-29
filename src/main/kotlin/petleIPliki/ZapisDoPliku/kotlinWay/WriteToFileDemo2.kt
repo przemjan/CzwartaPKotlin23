@@ -16,9 +16,9 @@ fun main() {
 
 
     plik.writeText(mojText1)
-//    plik.writeText(mojText2)
-    plik.appendText(mojText2)
-    plik.appendText("\n$mojText3")
+    plik.writeText(mojText2)
+//    plik.appendText(mojText2)
+//    plik.appendText("\n$mojText3")
 
     File(fileName).appendText("\n$mojText4")
 

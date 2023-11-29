@@ -26,4 +26,6 @@ fun main() {
     val myString = "Napis"
 
 
+    //   https://github.com/przemjan/CzwartaPKotlin23
+
 }

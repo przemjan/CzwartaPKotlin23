@@ -1,0 +1,114 @@
+1. Napisz program zawierający pętle która oblicza sumę następującego ciągu liczb:
+1/30 + 2/29 + 3/28 ... +30/1=?
+
+2. 13. Napisz pętle zagnieżdżone wyświetlające następujący wzór:
+*******
+******
+*****
+****
+***
+**
+*
+
+2. Napisz pętle zagnieżdżone wyświetlające taki oto wzór:
+##
+# #
+#  #
+#   #
+#    #
+#     #
+
+3. Napisz pętlę do sprawdzania poprawności danych wejściowych, która wyświetla
+prośbę o wpisanie litery 'T', 't', 'N' lub 'n'.
+
+4.  Przebyta odległość
+Odległość przebytą przez pojazd można obliczyć w następujący sposób:
+odległość = szybkość × czas
+Na przykład jeśli pociąg jedzie z prędkością 40 km/h przez trzy godziny, to przejechana
+odległość wynosi 120 kilometrów. Napisz program, który wyświetla prośbę
+o podanie szybkości pojazdu (w kilometrach na godzinę) i liczbę godzin podróży.
+Program powinien wyświetlać w pętli odległość przebytą po każdej godzinie okresu
+podanego przez użytkownika. Jeśli np. pojazd przez trzy godziny jedzie z szybkością
+40 km/h, należy wyświetlić informacje podobne do poniższych:
+Godzina Przebyta odległość
+-----------------------------
+1 40
+2 80
+3 120
+Walidacja danych: Program nie powinien akceptować ujemnych
+prędkości i wartości czasu mniejszych niż 1.
+
+4a. 
+Zmodyfikuj program w taki sposób, aby zapisywał dane w pliku, a nie na ekranie. Otwórz uzyskany plik w Notatniku
+lub innym edytorze tekstu, aby potwierdzić poprawność danych wyjściowych.
+
+5. Licznik liter
+Napisz program, który wyświetla prośbę o podanie łańcucha znaków, a następnie
+o wprowadzenie znaku. Program powinien zliczać i wyświetlać liczbę wystąpień określonego
+znaku w łańcuchu.
+5a. Licznik liter w pliku
+Napisz program, który wyświetla prośbę o podanie nazwy pliku, a następnie o wprowadzenie
+znaku. Program ten powinien zliczać i wyświetlać liczbę wystąpień określonego
+znaku w pliku. Za pomocą Notatnika lub innego edytora tekstu utwórz prosty
+plik, który można wykorzystać do przetestowania programu.
+
+6. Symulacja automatu do gier
+Automat do gier to maszyna do gier hazardowych, do której użytkownik wrzuca pieniądze,
+po czym pociąga za wajchę (lub wciska przycisk). Automat do gier wyświetla
+następnie losowy zbiór obrazków. Jeśli przynajmniej dwa obrazki są takie same, użytkownik
+wygrywa określoną kwotę pieniędzy wypłacanych przez maszynę.
+Utwórz program, który symuluje działanie automatu do gier. Program w trakcie
+działania powinien wykonywać następujące operacje:
+- Wyświetlać prośbę o podanie kwoty pieniędzy, jaką użytkownik chce wrzucić
+do maszyny.
+- Zamiast wyświetlać obrazki, losowo wybierać słowa z następującej listy:
+Wiśnie, Pomarańcze, Śliwki, Dzwonki, Melony, Bary.
+ -Aby wybrać słowo, program może generować liczbę losową z przedziału od 0 do 5.
+Po wylosowaniu liczby 0 program wybierze słowo Wiśnie, liczba 1 to Pomarańcze
+itd. Program powinien trzy razy losowo wybierać słowo z tej listy i wyświetlać
+każde z tych trzech słów.
+- Jeśli losowo wybrane słowa nie pasują do siebie, program informuje użytkownika,
+że wygrał 0 złotych. Jeżeli pasują do siebie dwa słowa, program komunikuje,
+że użytkownik wygrał dwukrotność postawionej kwoty. Jeśli trzy słowa
+są identyczne, program wyświetla informację o wygraniu trzykrotności stawki.
+- Program wyświetla pytanie, czy użytkownik chce zagrać ponownie. Jeśli tak,
+opisane wcześniej kroki są powtarzane. W przeciwnym razie program wyświetla
+łączną kwotę wrzuconą do automatu i łączną wartość wygranych .
+
+7. Gra w kości
+Napisz program do prostej gry w kości między komputerem a użytkownikiem. Po
+uruchomieniu program powinien wykonywać pętlę 10 razy. W każdej iteracji pętli
+należy wykonać następujące operacje:
+- Wygenerować liczbę losową z przedziału od 1 do 6. Jest to wartość rzutu
+komputera.
+- Wygenerować inną liczbę losową z przedziału od 1 do 6. Jest to wartość rzutu
+użytkownika.
+- Wyższa liczba oczek daje wygraną. W przypadku równej liczby oczek dla danego
+rzutu nie ma zwycięzcy.
+W kolejnych iteracjach program powinien zachowywać liczbę wygranych komputera
+i użytkownika. Po wykonaniu wszystkich iteracji program ma wyświetlać, kto wygrał
+całą grę: komputer czy użytkownik.
+
+8. Generator osobistych stron internetowych
+Napisz program, który wyświetla prośbę o podanie imienia użytkownika, a następnie
+o wpisanie opisującego go zdania. Oto przykładowy przebieg programu:
+- Podaj swoje imię: Julia Kowalska [Enter]
+- Opisz siebie: Studiuję informatykę, należę do zespołu jazzowego, a po studiach chcę
+pracować jako programistka aplikacji internetowych. [Enter]
+Po wprowadzeniu przez użytkownika żądanych danych wejściowych program powinien
+generować plik HTML z tymi danymi, tworząc w ten sposób prostą stronę internetową.
+Oto przykładowy kod w HTML-u oparty na pokazanych wcześniej danych
+wejściowych:
+<html>
+<head>
+</head>
+<body>
+<center>
+<h1>Julia Tracz</h1>
+</center>
+<hr />
+Studiuję informatykę, należę do zespołu jazzowego, a po studiach chcę
+pracować jako programistka aplikacji internetowych.
+<hr />
+</body>
+</html>

@@ -1,0 +1,92 @@
+1. Liczby rzymskie
+Napisz program, który wyświetla prośbę o wpisanie wartości z przedziału od 1 do 10, a następnie wyświetla liczbę rzymską
+ będącą odpowiednikiem tej wartości. Jeśli podana wartość nie należy do przedziału od 1 do 10,
+ program powinien wyświetlać komunikat o błędzie.
+1a. Zmodyfikuj program tak, aby przyjmował wszystkie wartości standardowych liczb rzymskich( 1-3999).
+
+2. Kalkulator czasu
+Napisz program, który wyświetla prośbę o wprowadzenie liczby sekund.
+- Minuta składa się z 60 sekund. Jeśli podana liczba sekund wynosi 60 lub więcej, program powinien wyświetlać liczbę
+ minut wyliczoną na podstawie liczby sekund.
+- Godzina składa się z 3600 sekund. Jeśli podana liczba sekund wynosi 3600 lub więcej, program powinien wyświetlać
+liczbę godzin wyliczoną na podstawie liczby sekund.
+- Dzień składa się z 86 400 sekund. Jeśli podana liczba sekund wynosi 86 400 lub więcej, program powinien wyświetlać
+ liczbę dni wyliczoną na podstawie liczby sekund.
+Przykładowy output: 3662 sekundy to 0 dni, 1 godzina, 1 minuta i 2 sekundy.
+
+3. Posortowane imiona
+Napisz program, który wyświetla prośbę o podanie trzech imion, a następnie wyświetla
+je posortowane rosnąco. Przykładowo, jeśli użytkownik wpisał „Czesław”, „Lucjan”
+i „Adam”, program powinien wyświetlić:
+Adam
+Czesław
+Lucjan
+
+4.  Udział w biegu
+Napisz program, który wyświetla pytanie o nazwiska trzech biegaczy i czas ukończenia biegu (podawany w minutach) przez
+każdego z nich. Program powinien wyświetlać nazwiska biegaczy zgodnie z ich kolejnością na mecie.
+
+5. Indeks BMI
+  Napisz program, który oblicza i wyświetla indeks BMI (ang. body mass index) danej osoby. Indeks BMI często służy
+   do oceny, czy osoba o określonym wzroście ma nadwagę lub niedowagę. Ten indeks można obliczyć za pomocą
+   następującego wzoru:
+  BMI = waga/wzrost2
+Waga jest tu podawana w kilogramach, natomiast wzrost — w metrach (np. 1,85 dla 185 cm).
+Program powinien wyświetlać komunikat z informacją, czy dana osoba ma optymalną wagę, czy też ma
+niedowagę lub nadwagę. Dla osoby prowadzącej siedzący tryb życia za optymalny uznaje się indeks BMI z
+przedziału od 18,5 do 25. Indeks BMI poniżej 18,5 wskazuje na niedowagę, a wartość powyżej 25 może oznaczać nadwagę.
+
+
+6. Opłaty za transport
+Firma „Szybkie Dostawy” nalicza następujące opłaty:
+Stawka za 500 kilometrów:
+- Kilogram lub mniej 1,10 złotego
+- Powyżej kilograma do trzech kilogramów 2,20 złotego
+- Powyżej trzech kilogramów do pięciu kilogramów 3,70 złotego
+- Powyżej pięciu kilogramów 3,80 złotego
+Opłaty za 500 kilometrów nie są obliczane proporcjonalnie - opłata jest naliczana za każde rozpoczęte 500 kilometrów.
+Jeśli np. kilogramowa przesyłka zostanie przesłana na odległość 154 kilometrów, opłata wyniesie 1,1 pln,
+a jeżeli na odległość 501 kilometrów to 2,2 pln.
+Napisz program, który wyświetla prośbę o wprowadzenie wagi i odległości przesyłki, a następnie wyświetla jej koszt.
+
+7. Operator telefonii komórkowej
+Operator telefonii komórkowej oferuje klientom trzy różne pakiety:
+- Pakiet A: Cena to 39,99 złotego miesięcznie, w tym 450 darmowych minut. Każda następna minuta kosztuje 0,45 złotego.
+- Pakiet B: Cena to 59,99 złotego miesięcznie, w tym 900 darmowych minut. Każda następna minuta kosztuje 0,40 złotego.
+- Pakiet C: Cena to 69,99 złotego miesięcznie, brak limitu minut.
+Napisz program generujący miesięczny rachunek dla klienta. Program ma wyświetlać pytanie o literę reprezentującą pakiet
+wybrany przez klienta (A, B lub C) i liczbę minut rozmów. Następnie program powinien wyświetlać łączne opłaty za dany
+miesiąc.
+
+8. Operator telefonii komórkowej, część 2.
+Zmodyfikuj program napisany w zadaniu 6., aby obliczał i wyświetlał kwotę, jaką klient korzystający z pakietu A
+zaoszczędziłby, wybierając pakiety B lub C, a także kwotę zaoszczędzoną przez klienta używającego pakietu B po zakupie
+ pakietu C. Jeśli zmiana pakietu nie przynosi oszczędności, program ma nie wyświetlać żadnego komunikatu.
+
+9. Program do wyboru restauracji
+Grupa znajomych z liceum przyjeżdża do Ciebie na spotkanie po latach. Chcesz ich zabrać do lokalnej restauracji.
+Nie jesteś pewien, czy znajomi są na jakiejś diecie. Do wyboru masz następujące restauracje:
+- Luksusowe Burgery u Jarka — wegetariańskie: nie, wegańskie: nie, bezglutenowe: nie;
+- Pizzeria przy Dworcowej — wegetariańskie: tak, wegańskie: nie, bezglutenowe: tak;
+- Kawiarnia na Rogu — wegetariańskie: tak, wegańskie: tak, bezglutenowe: tak;
+- Włoskie Specjały — wegetariańskie: tak, wegańskie: nie, bezglutenowe: nie;
+- Kuchnia u Szefa — wegetariańskie: tak, wegańskie: tak, bezglutenowe: tak.
+Napisz program wyświetlający pytanie, czy któraś z osób jest na diecie wegetariańskiej, wegańskiej lub bezglutenowej.
+Następnie program ma pokazywać tylko te restauracje, w których wszyscy znajdą coś dla siebie.
+ Oto przykładowe dane wyjściowe programu:
+	Czy któraś z osób jest na diecie wegetariańskiej? tak [Enter]
+	Czy któraś z osób jest na diecie wegańskiej? nie [Enter]
+	Czy któraś z osób jest na diecie bezglutenowej? tak [Enter]
+	Możecie wybrać się do następujących restauracji:
+	Pizzeria przy Dworcowej
+	Kawiarnia na Rogu
+	Kuchnia u Szefa
+Oto inne przykładowe dane wyjściowe programu:
+	Czy któraś z osób jest na diecie wegetariańskiej? tak [Enter]
+	Czy któraś z osób jest na diecie wegańskiej? tak [Enter]
+	Czy któraś z osób jest na diecie bezglutenowej? tak [Enter]
+	Możecie wybrać się do następujących restauracji:
+	Kawiarnia na Rogu
+	Kuchnia u Szefa
+
+
